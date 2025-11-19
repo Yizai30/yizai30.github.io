@@ -49,13 +49,31 @@ services:
 ## 2 使用
 输入 `claude` 启动 Claude Code。只需要在终端输入自然语言指令，agent 就会反复进行“感知→思考→行动→反馈”的步骤，直到完成目标。
 
-![alt text](../../images/2025-11-18-用GLM+ClaudeCode搭_烟跑跑_介绍网站/image-2.png)
+{% if site.cdn %}
+![感知→思考→行动→反馈](/images/2025-11-18-用GLM+ClaudeCode搭_烟跑跑_介绍网站/image-2.png){: w="700" h="400" .shadow }
+_感知→思考→行动→反馈_
+{% else %}
+![感知→思考→行动→反馈](/assets/img/2025-11-18-用GLM+ClaudeCode搭_烟跑跑_介绍网站/image-2.png){: w="700" h="400" .shadow }
+_感知→思考→行动→反馈_
+{% endif %}
 
-![alt text](../../images/2025-11-18-用GLM+ClaudeCode搭_烟跑跑_介绍网站/image-3.png)
+{% if site.cdn %}
+![完成搭建网站的目标](/images/2025-11-18-用GLM+ClaudeCode搭_烟跑跑_介绍网站/image-3.png){: w="700" h="400" .shadow }
+_完成搭建网站的目标_
+{% else %}
+![完成搭建网站的目标](/assets/img/2025-11-18-用GLM+ClaudeCode搭_烟跑跑_介绍网站/image-3.png){: w="700" h="400" .shadow }
+_完成搭建网站的目标_
+{% endif %}
 
 ## 3 结果
 执行 `sh start.sh` 启动网站，在浏览器中查看效果。
-![alt text](../../images/2025-11-18-用GLM+ClaudeCode搭_烟跑跑_介绍网站/image-4.png)
+{% if site.cdn %}
+![网站效果](/images/2025-11-18-用GLM+ClaudeCode搭_烟跑跑_介绍网站/image-4.png){: w="700" h="400" .shadow }
+_网站效果_
+{% else %}
+![网站效果](/assets/img/2025-11-18-用GLM+ClaudeCode搭_烟跑跑_介绍网站/image-4.png){: w="700" h="400" .shadow }
+_网站效果_
+{% endif %}
 
 ## 4  总结
 本文详细记录了在 Windows 系统下使用 GLM+Claude Code 搭建网站的过程：从环境配置、Docker容器启动，到 Claude Code 安装使用，最终成功部署运行。通过自然语言指令驱动 AI 代理完成“感知-思考-行动”的循环，展示了 AI 辅助开发的完整工作流。
