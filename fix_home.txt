@@ -1,1 +1,1 @@
-bundle reinstall try
+removed _sass/vendors from .gitignore
