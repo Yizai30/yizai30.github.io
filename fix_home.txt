@@ -1,1 +1,1 @@
-change build method to github actions
+bundle reinstall try
