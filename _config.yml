@@ -97,7 +97,7 @@ theme_mode: # [light | dark]
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-cdn: https://cdn.jsdelivr.net/gh/yizai30/mycdn-jsdelivr@1.0/resources
+cdn: https://cdn.jsdelivr.net/gh/yizai30/mycdn-jsdelivr/resources
 
 # the avatar on sidebar, support local or CORS resources
 avatar: https://raw.githubusercontent.com/Yizai30/yizai30.github.io/master/assets/img/yizai-headimage.png
