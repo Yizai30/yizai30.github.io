@@ -101,7 +101,7 @@ enum EClassFlags
     ...
 }
 ```
-### Unreal 开发者助手
+### [Unreal 开发者助手](https://dev.epicgames.com/community/assistant/unreal-engine)
 > CLASS_Native 是 Unreal Engine 内部用于表示“原生”C++类的标记或宏，而不是用户在 UCLASS() 宏中直接使用的类声明规范。
 - 它标识那些直接由 C++ 编写、继承自 UObject 的类，区别于纯蓝图类或自动生成的类。
 - 该标记帮助引擎区分原生类与非原生类，在运行时和编辑器中管理类的行为和元数据。
