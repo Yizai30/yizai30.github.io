@@ -227,3 +227,12 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+gitalk:
+  enable: true # 总开关，控制gitalk功能是否开启
+  clientId: Ov23li0b8AqnSfdbtTZ2
+  clientSecret: Ov23li0b8AqnSfdbtTZ2
+  repo: yizai30.github.io
+  owner: Yizai30
+  admin: Yizai30
+  distractionFreeMode: true # 若设置为true，则当在评论框输入时，周围区域会变暗
