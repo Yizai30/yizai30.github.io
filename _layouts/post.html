@@ -90,6 +90,9 @@ script_includes:
             </span>
           {% endif %}
 
+          <!-- busuanzi counter -->
+          {% include pageviews/page_pv.html content=content prompt=true lang=lang %}
+
           <!-- read time -->
           {% include read-time.html content=content prompt=true lang=lang %}
         </div>

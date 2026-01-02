@@ -46,4 +46,9 @@
 
     {{ site.data.locales[include.lang].meta | replace: ':PLATFORM', _platform | replace: ':THEME', _theme }}
   </p>
+
+  <p>
+  <!-- busuanzi counter -->
+      {% include pageviews/site_pv_uv.html content=content prompt=true lang=lang %}
+  </p>
 </footer>
