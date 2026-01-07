@@ -1,7 +1,7 @@
 ---
 title: 用GLM+Claude Code，快速搭一个游戏介绍网站！
 tags: [GLM, Claude Code]
-categories: [AI Agent]
+categories: [Game]
 ---
 ## 1 环境配置
 ### 1.1 官方文档
