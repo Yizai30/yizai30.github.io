@@ -13,6 +13,7 @@ Windows 10/11 通常自带 OpenSSH，但需确认是否启用：
 ```powershell
 Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH.Client*'
 ```
+
 如未安装，运行：
 
 ```powershell
@@ -22,9 +23,9 @@ Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0
 ### 🔑 步骤 2：生成 SSH 密钥（PowerShell 或 Git Bash）
 
 ```powershell
-# 生成 ED25519 密钥（推荐）
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
+
 - 提示 `Enter file...` 直接回车（使用默认路径 `C:\Users\<你的用户名>\.ssh\id_ed25519`）
 - 提示 `passphrase` 可直接回车跳过（或设置密码增强安全）
 
