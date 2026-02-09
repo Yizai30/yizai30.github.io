@@ -8,7 +8,7 @@ categories: [git]
 ### ✅ 步骤 1：确认已安装 OpenSSH 客户端
 Windows 10/11 通常自带 OpenSSH，但需确认是否启用：
 
-**方法 ：PowerShell 检查（管理员身份运行）**
+方法 ：PowerShell 检查（管理员身份运行）
 
 ```powershell
 Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH.Client*'
