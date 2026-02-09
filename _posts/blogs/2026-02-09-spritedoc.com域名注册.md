@@ -9,11 +9,12 @@ categories: [Game]
 问了问 Claude Code 帮我选择注册商，推荐 Claudeflare。
 
 📊 成本对比总结（By Claude Code）
-│   注册商   │ 5年总成本 │ 10年总成本 │    推荐    │
+
+|   注册商   | 5年总成本 | 10年总成本 |    推荐    |
 |------------|----------|-----------|------------|
-│ Cloudflare │ $48.85    │ $97.70     │ ⭐⭐⭐⭐⭐ │
-│ Namecheap  │ $68.31    │ $136.62    │ ⭐⭐⭐⭐   │
-│ GoDaddy    │ $99.95    │ $199.90    │ ⭐⭐       │
+| Cloudflare | $48.85   | $97.70    | ⭐⭐⭐⭐⭐ |
+| Namecheap  | $68.31   | $136.62   | ⭐⭐⭐⭐   |
+| GoDaddy    | $99.95   | $199.90   | ⭐⭐       |
 
 现在网站托管在了 Vercel 上，不知道会不会收集到什么反馈。
 
@@ -27,4 +28,4 @@ _注意设置 Application Preset_
 ![自动配置 DNS](assets/img/2026-02-09-spritedoc.com域名注册/image2.png)
 _自动配置 DNS_
 
-网站 URL：https://www.spritedoc.com/ 。
+网站 URL：[https://www.spritedoc.com/](https://www.spritedoc.com/) 。
