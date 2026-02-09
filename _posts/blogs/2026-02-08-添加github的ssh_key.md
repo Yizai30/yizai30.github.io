@@ -10,19 +10,19 @@ Windows 10/11 通常自带 OpenSSH，但需确认是否启用：
 
 **方法 ：PowerShell 检查（管理员身份运行）**
 
-```powershell
+```bash
 Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH.Client*'
 ```
 
 如未安装，运行：
 
-```powershell
+```bash
 Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0
 ```
 
 ### 🔑 步骤 2：生成 SSH 密钥（PowerShell 或 Git Bash）
 
-```powershell
+```bash
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
@@ -32,7 +32,7 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 ### 🧩 步骤 3：启动 ssh-agent 并添加密钥
 Windows 的 ssh-agent 是系统服务，需先启动：
 
-```powershell
+```bash
 # 启动 ssh-agent 服务（管理员权限运行一次即可）
 Get-Service ssh-agent | Set-Service -StartupType Automatic
 Start-Service ssh-agent
@@ -42,7 +42,7 @@ ssh-add $env:USERPROFILE\.ssh\id_ed25519
 ```
 
 ### 📋 步骤 4：复制公钥到剪贴板
-```powershell
+```bash
 # PowerShell（Windows 10/11）
 Get-Content "$env:USERPROFILE\.ssh\id_ed25519.pub" | Set-Clipboard
 ```
@@ -57,7 +57,7 @@ Get-Content "$env:USERPROFILE\.ssh\id_ed25519.pub" | Set-Clipboard
 
 
 ### ✅ 步骤 6：测试连接
-```powershell
+```bash
 ssh -T git@github.com
 ```
 成功时会看到：
