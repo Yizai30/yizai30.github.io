@@ -41,6 +41,18 @@ Start-Service ssh-agent
 ssh-add $env:USERPROFILE\.ssh\id_ed25519
 ```
 
+如果时 gitbash，则执行命令如下：
+```bash
+# 启动 ssh-agent（如果尚未运行）
+eval "$(ssh-agent -s)"
+
+# 添加私钥
+ssh-add ~/.ssh/id_ed25519
+
+# 验证是否加载成功
+ssh-add -l
+```
+
 ### 📋 步骤 4：复制公钥到剪贴板
 ```powershell
 # PowerShell（Windows 10/11）
