@@ -37,3 +37,11 @@ Installing plugin "claude-mem"...
 HP@DESKTOP-THRS41I MINGW64 ~
 $
 ```
+
+如果安装过程中遇到问题 `fatal: early EOF`，可能是仓库过大或负载过高，可以配置 git 解决：
+```bash
+git config --global http.postBuffer 524288000    # 500MB
+git config --global http.maxRequestBuffer 100M
+git config --global core.compression 0            # 临时禁用压缩减少负载
+```
+该问题在安装 Claude Code 的官方技能市场时遇到， `claude plugin marketplace add anthropics/skills` 。
