@@ -45,3 +45,9 @@ git config --global http.maxRequestBuffer 100M
 git config --global core.compression 0            # 临时禁用压缩减少负载
 ```
 该问题在安装 Claude Code 的官方技能市场时遇到， `claude plugin marketplace add anthropics/skills` 。
+
+我现在安装的 Claude Code 插件/辅助工具列表如下：
+- openspec 规范化管理 AI 落地了哪些需求，直接在 changes 文件夹下有文件夹列表，每一个文件夹对应一个落地的需求，查阅很方便
+- claude-mem 可视化项目列表、对话记录，方便地管理本地的所有项目
+- anthropics/skills 官方的技能市场
+- uipro-cli（或者使用 anthropics/skills 的官方技能 frontend-design） 让 AI 设计的网站少些 AI 味儿
