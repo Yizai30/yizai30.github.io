@@ -287,6 +287,6 @@ _像素艺术与LED显示屏_
 ![Sprites](assets/img/2026-04-19-Nano-Banana-Pro-完整指南：专业资产制作的10个技巧/image23.png)
 _Sprites_
 
-![Sprites-GIF](https://x.com/i/status/1994480371061469306)
+![Sprites-GIF](assets/img/2026-04-19-Nano-Banana-Pro-完整指南：专业资产制作的10个技巧/image24.gif)
 _Sprites-GIF_
 
